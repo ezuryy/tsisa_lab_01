@@ -86,7 +86,6 @@ void OptimalPassiveSearch(double lower, double upper) {
         xForMinY = (upper - lower) / (N + 1) * kForMinY + lower;
         PrintPart2(N, xForMinY, delta);
         N++;
-        //delta = (upper - lower) / (N + 1);
     }
     cout << std::string(39, '_') << '\n'
             << "x = " << std::fixed << std::setprecision(3)
